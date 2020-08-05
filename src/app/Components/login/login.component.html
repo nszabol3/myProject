@@ -6,12 +6,20 @@
             <p class="sign">Sign in your account</p>
         </div>
 
-        <div class="signIn">
+        <div (click)="getData($event)"class="signIn">
             <p>sign in</p>
         </div>
 
-        <div class="signUp">
+        <div (click)="getNum($event)"class="signUp">
             <p>Sing up</p>
+        </div>
+
+        <div class="emailText">
+            <p >Email</p>
+        </div>
+
+        <div (click)='onClick($event)' (keypress)="keyEvent($event)" (keypress)="checkEmail($event)"class="input-form" >
+            <p (onChange)="checkEmail($event)"class="inputText">{{text}}</p>
         </div>
 
     </div>
