@@ -1,1 +1,70 @@
-<p>register works!</p>
+<!DOCTYPE html>
+<form [formGroup]="data">
+    <div class="container">
+        <div class="text">
+            <p class="welcome">Welcome Back!</p>
+            <p class="sign">Signup with email</p>
+        </div>
+
+        <div routerLink="/login" class="signIn">
+            <p>sign in</p>
+        </div>
+
+        <div class="signUp">
+            <p>Sing up</p>
+        </div>
+
+        <div class="input-form" >
+            <label >Email</label>
+            <input  type="email" class="form-control" formControlName='email' [ngClass]="{'is-invalid': data.get('email').invalid && data.get('email').touched }">
+            <p *ngIf="data.get('email').errors?.pattern" class="errorEmailText">Invalid Email!</p>
+        </div>
+
+        <div class="input-form">
+            <label >Password</label>
+            <input type="text" class="form-control" formControlName='password' [ngClass]="{'is-invalid': data.get('password').invalid && data.get('password').touched}">
+            <p *ngIf="data.get('password').errors?.pattern" class="errorEmailText">Invalid Password!</p>
+        </div>
+
+        <div class="forgetPassword-link">
+            <p>Forgot your password?</p>
+        </div>
+
+        <div class="rememberMe">
+            <p>Remember me</p>
+            <div class="button">
+
+            </div>
+        </div>
+
+        <div class="acceptButton">
+            <p>Signup</p>
+        </div>
+
+        <div class="line1"></div>
+
+        <div class="line2"></div>
+
+        <div class="lineText">
+            <p>or authorize with</p>
+        </div>
+
+        <div class="info">
+            <div class="instagramm">
+                <p>I</p>
+            </div>
+
+            <div class="facebook">
+                <p>F</p>
+            </div>
+
+            <div class="google">
+                <p>G</p>
+            </div>
+
+            <div class="index">
+                <p>Z</p>
+            </div>
+        </div>
+    </div>
+</form>

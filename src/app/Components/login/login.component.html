@@ -2,7 +2,7 @@
 <form [formGroup]="data">
     <div class="container">
         <div class="text">
-            <p class="welcome">Welcome Back</p>
+            <p class="welcome">Welcome Back!</p>
             <p class="sign">Sign in your account</p>
         </div>
 
@@ -10,7 +10,7 @@
             <p>sign in</p>
         </div>
 
-        <div class="signUp">
+        <div routerLink="/register"class="signUp">
             <p>Sing up</p>
         </div>
 
@@ -23,7 +23,7 @@
         <div class="input-form">
             <label >Password</label>
             <input type="text" class="form-control" formControlName='password' [ngClass]="{'is-invalid': data.get('password').invalid && data.get('password').touched}">
-            <p *ngIf="data.get('password').errors?.pattern" class="errorEmailText">Invalid Email!</p>
+            <p *ngIf="data.get('password').errors?.pattern" class="errorEmailText">Invalid Password!</p>
         </div>
 
         <div class="forgetPassword-link">
