@@ -193,7 +193,7 @@
                 background: #4f4f4f;
                 margin-right:227px;
             
-                p{
+                img{
                     color: #f2f2f2;
                     padding-left: 4px;
                     padding-top: 4px;
@@ -483,8 +483,7 @@
         margin-left: 809px; 
         margin-bottom: 367px;
         border-radius: 8px;
-        width: 294px;
-        height: 524px;
+        
         .text{
             .welcome{
                 text-align: center;
@@ -661,51 +660,65 @@
         .info{
             .instagramm{
                 margin-left:35px;
-                margin-bottom: 27px;
                 border-radius: 4px;
                 background: #4f4f4f;
                 margin-right:227px;
-            
-                p{
+                margin-top: 26px;
+                img{
                     color: #f2f2f2;
-                    padding-left: 4px;
-                    padding-top: 4px;
+                    padding-right: 6px;
+                    padding-left: 6px;
+                    padding-top: 6px;
+                    padding-bottom: 1px;
                     
-                    padding-bottom: 4px;
                 }
             }
 
             .facebook{
-            
-                p{
+                margin-left:99px;
+                border-radius: 4px;
+                background: #4f4f4f;
+                margin-right:163px;
+                margin-top: -58px;
+                img{
                     color: #f2f2f2;
-                    padding-left: 4px;
-                    padding-top: 4px;
+                    padding-right: 6px;
+                    padding-left: 6px;
+                    padding-top: 6px;
+                    padding-bottom: 1px;
                     
-                    padding-bottom: 4px;
                 }
             }
 
             .google{
-            
-                p{
+                margin-left:163px;
+                border-radius: 4px;
+                background: #4f4f4f;
+                margin-right:99px;
+                margin-top: -30px;
+                img{
                     color: #f2f2f2;
-                    padding-left: 4px;
-                    padding-top: 4px;
+                    padding-right: 6px;
+                    padding-left: 6px;
+                    padding-top: 6px;
+                    padding-bottom: 1px;
                     
-                    padding-bottom: 4px;
                 }
             }
 
             .index{
-                
-
-                p{
+                margin-left:227px;
+                border-radius: 4px;
+                background: #4f4f4f;
+                margin-right:35px;
+                margin-top: -30px;
+                img{
                     color: #f2f2f2;
-                    padding-left: 4px;
-                    padding-top: 4px;
+                    padding-right: 6px;
+                    padding-left: 6px;
+                    padding-top: 6px;
+                    padding-bottom: 1px;
                     
-                    padding-bottom: 4px;
                 }
             }
         }
