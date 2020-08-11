@@ -24,4 +24,8 @@ export class RegisterComponent implements OnInit {
     ])
   })
 
+  buttonChange(event){
+    console.log("katt1")
+  }
+
 }

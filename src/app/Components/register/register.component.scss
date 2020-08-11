@@ -43,7 +43,7 @@
             margin-right: 147px;
             padding: 0px;
             p{
-                color: #2f2f2f;
+                color: #f2f2f2;
                 text-transform: uppercase;
                 font-feature-settings: 'pnum' on, 'lnum' on;
                 padding-top:6px;
@@ -134,6 +134,23 @@
             }
         }
 
+        .rememberButton{
+            .button{
+                background: #BDBDBD;
+                margin-left: 14px;
+                margin-right: 247px;
+                margin-bottom: 24px;
+                border-radius: 10px;
+                .button2{
+                    background: #F2F2F2;
+                    border-radius: 10px;
+                    padding: 10px;
+                    margin-right: 13px;
+                }
+
+            }
+        }
+
         .acceptButton{
             border: 1px solid #f2f2f2;
             border-radius: 8px;
@@ -193,7 +210,7 @@
                 background: #4f4f4f;
                 margin-right:227px;
             
-                p{
+                img{
                     color: #f2f2f2;
                     padding-left: 4px;
                     padding-top: 4px;
@@ -247,8 +264,7 @@
         margin-left: 240px; 
         margin-bottom: 367px;
         border-radius: 8px;
-        width: 294px;
-        height: 524px;
+        
         .text{
             .welcome{
                 text-align: center;
@@ -298,7 +314,7 @@
             margin-right: 14px;
             margin-left: 145px;
             margin-top: -38.5px;
-            background-color: #e0e0e0;
+            background: #e0e0e0;
             p{
                 color: #0400D1;
                 text-transform: uppercase;
@@ -368,6 +384,24 @@
                 font-size: 13px;
                 color: #f2f2f2;
                 letter-spacing: 0.024em;
+                margin-bottom: -20px;
+            }
+        }
+
+        .rememberButton{
+            .button{
+                background: #BDBDBD;
+                margin-left: 14px;
+                margin-right: 247px;
+                margin-bottom: 24px;
+                border-radius: 10px;
+                .button2{
+                    background: #F2F2F2;
+                    border-radius: 10px;
+                    padding: 10px;
+                    margin-right: 13px;
+                }
+
             }
         }
 
@@ -425,51 +459,65 @@
         .info{
             .instagramm{
                 margin-left:35px;
-                margin-bottom: 27px;
                 border-radius: 4px;
                 background: #4f4f4f;
                 margin-right:227px;
-            
-                p{
+                margin-top: 26px;
+                img{
                     color: #f2f2f2;
-                    padding-left: 4px;
-                    padding-top: 4px;
+                    padding-right: 6px;
+                    padding-left: 6px;
+                    padding-top: 6px;
+                    padding-bottom: 1px;
                     
-                    padding-bottom: 4px;
                 }
             }
 
             .facebook{
-            
-                p{
+                margin-left:99px;
+                border-radius: 4px;
+                background: #4f4f4f;
+                margin-right:163px;
+                margin-top: -58px;
+                img{
                     color: #f2f2f2;
-                    padding-left: 4px;
-                    padding-top: 4px;
+                    padding-right: 6px;
+                    padding-left: 6px;
+                    padding-top: 6px;
+                    padding-bottom: 1px;
                     
-                    padding-bottom: 4px;
                 }
             }
 
             .google{
-            
-                p{
+                margin-left:163px;
+                border-radius: 4px;
+                background: #4f4f4f;
+                margin-right:99px;
+                margin-top: -30px;
+                img{
                     color: #f2f2f2;
-                    padding-left: 4px;
-                    padding-top: 4px;
+                    padding-right: 6px;
+                    padding-left: 6px;
+                    padding-top: 6px;
+                    padding-bottom: 1px;
                     
-                    padding-bottom: 4px;
                 }
             }
 
             .index{
-                
-
-                p{
+                margin-left:227px;
+                border-radius: 4px;
+                background: #4f4f4f;
+                margin-right:35px;
+                margin-top: -30px;
+                img{
                     color: #f2f2f2;
-                    padding-left: 4px;
-                    padding-top: 4px;
+                    padding-right: 6px;
+                    padding-left: 6px;
+                    padding-top: 6px;
+                    padding-bottom: 1px;
                     
-                    padding-bottom: 4px;
                 }
             }
         }
@@ -483,8 +531,7 @@
         margin-left: 809px; 
         margin-bottom: 367px;
         border-radius: 8px;
-        width: 294px;
-        height: 524px;
+        
         .text{
             .welcome{
                 text-align: center;
@@ -533,8 +580,8 @@
             padding: 0px;
             margin-right: 14px;
             margin-left: 145px;
-            background: #e0e0e0;
             margin-top: -38.5px;
+            background: #e0e0e0;
             p{
                 color: #0400D1;
                 text-transform: uppercase;
@@ -566,7 +613,7 @@
                 
             }
 
-            label{
+            label{ //remember me 
                 color: #f2f2f2;
                 letter-spacing: 0.4px;
                 font-size: 12px;
@@ -596,16 +643,23 @@
             align-self: center;
         }
 
-        .rememberMe{
-            p{
-                padding-top: 18px;
-                padding-left: 59px;
-                line-height: 20px;
-                font-size: 13px;
-                color: #f2f2f2;
-                letter-spacing: 0.024em;
+        .rememberButton{
+            .button{
+                background: #BDBDBD;
+                margin-left: 14px;
+                margin-right: 247px;
+                margin-bottom: 24px;
+                border-radius: 10px;
+                .button2{
+                    background: #F2F2F2;
+                    border-radius: 10px;
+                    padding: 10px;
+                    margin-right: 13px;
+                }
+
             }
         }
+        
 
         .acceptButton{
             border: 1px solid #f2f2f2;
@@ -661,51 +715,65 @@
         .info{
             .instagramm{
                 margin-left:35px;
-                margin-bottom: 27px;
                 border-radius: 4px;
                 background: #4f4f4f;
                 margin-right:227px;
-            
-                p{
+                margin-top: 26px;
+                img{
                     color: #f2f2f2;
-                    padding-left: 4px;
-                    padding-top: 4px;
+                    padding-right: 6px;
+                    padding-left: 6px;
+                    padding-top: 6px;
+                    padding-bottom: 1px;
                     
-                    padding-bottom: 4px;
                 }
             }
 
             .facebook{
-            
-                p{
+                margin-left:99px;
+                border-radius: 4px;
+                background: #4f4f4f;
+                margin-right:163px;
+                margin-top: -58px;
+                img{
                     color: #f2f2f2;
-                    padding-left: 4px;
-                    padding-top: 4px;
+                    padding-right: 6px;
+                    padding-left: 6px;
+                    padding-top: 6px;
+                    padding-bottom: 1px;
                     
-                    padding-bottom: 4px;
                 }
             }
 
             .google{
-            
-                p{
+                margin-left:163px;
+                border-radius: 4px;
+                background: #4f4f4f;
+                margin-right:99px;
+                margin-top: -30px;
+                img{
                     color: #f2f2f2;
-                    padding-left: 4px;
-                    padding-top: 4px;
+                    padding-right: 6px;
+                    padding-left: 6px;
+                    padding-top: 6px;
+                    padding-bottom: 1px;
                     
-                    padding-bottom: 4px;
                 }
             }
 
             .index{
-                
-
-                p{
+                margin-left:227px;
+                border-radius: 4px;
+                background: #4f4f4f;
+                margin-right:35px;
+                margin-top: -30px;
+                img{
                     color: #f2f2f2;
-                    padding-left: 4px;
-                    padding-top: 4px;
+                    padding-right: 6px;
+                    padding-left: 6px;
+                    padding-top: 6px;
+                    padding-bottom: 1px;
                     
-                    padding-bottom: 4px;
                 }
             }
         }
