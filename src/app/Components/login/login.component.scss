@@ -209,51 +209,66 @@
                 border-radius: 4px;
                 background: #4f4f4f;
                 margin-right:227px;
-            
+                margin-top: 16px;
                 img{
                     color: #f2f2f2;
-                    padding-left: 4px;
-                    padding-top: 4px;
-                    
-                    padding-bottom: 4px;
+                    padding-left: 6px;
+                    padding-top: 6px;
+                    padding-bottom: 1px;
+                    padding-right: 6px;
                 }
             }
 
             .facebook{
-            
-                p{
+                margin-left:99px;
+                border-radius: 4px;
+                background: #4f4f4f;
+                margin-right:163px;
+                margin-top: -58px;
+                img{
                     color: #f2f2f2;
-                    padding-left: 4px;
-                    padding-top: 4px;
-                    
-                    padding-bottom: 4px;
+                    padding-left: 6px;
+                    padding-top: 6px;
+                    padding-bottom: 1px;
+                    padding-right: 6px;
                 }
             }
 
             .google{
-            
-                p{
+                margin-left:163px;
+                border-radius: 4px;
+                background: #4f4f4f;
+                margin-right:99px;
+                margin-top: -30px;
+                img{
                     color: #f2f2f2;
-                    padding-left: 4px;
-                    padding-top: 4px;
-                    
-                    padding-bottom: 4px;
+                    padding-left: 6px;
+                    padding-top: 6px;
+                    padding-right: 6px; 
+                    padding-bottom: 1px;
                 }
             }
 
             .index{
-                
-
-                p{
+                margin-left:227px;
+                border-radius: 4px;
+                background: #4f4f4f;
+                margin-right:35px;
+                margin-top: -30px;
+                img{
                     color: #f2f2f2;
-                    padding-left: 4px;
-                    padding-top: 4px;
-                    
-                    padding-bottom: 4px;
+                    padding-left: 6px;
+                    padding-top: 6px;
+                    padding-right: 6px;
+                    padding-bottom: 1px;
                 }
             }
         }
     } 
+    .lastImg{
+        margin-top: -500px;
+        margin-left: 0px;
+    }    
 }
 
 
@@ -522,6 +537,10 @@
             }
         }
     } 
+    .lastImg{
+        margin-top: -500px;
+        margin-left: 180px;
+    }  
 }
 
 @media only screen and (min-width: 1123px){
@@ -610,7 +629,6 @@
                 padding-top:8px;
                 padding-bottom: 9px;
                 padding-left: 6px;
-                
             }
 
             label{ //remember me 
@@ -632,6 +650,7 @@
                 padding-left:22px;
             }
         }
+
 
         .forgetPassword-link{
             //padding-top: 2px;
@@ -702,30 +721,20 @@
             margin-bottom: -23px;
         }
 
-        .lineText{
-            font-size: 9px;
-            line-height: 20px;
-            text-align: center;
-            letter-spacing: 0.07em;
-            text-transform: uppercase;
-            color: #F2F2F2;
-            padding-top: 13px;
-        }
-
         .info{
             .instagramm{
                 margin-left:35px;
+                margin-bottom: 27px;
                 border-radius: 4px;
                 background: #4f4f4f;
                 margin-right:227px;
-                margin-top: 26px;
+                margin-top: 16px;
                 img{
                     color: #f2f2f2;
-                    padding-right: 6px;
                     padding-left: 6px;
                     padding-top: 6px;
                     padding-bottom: 1px;
-                    
+                    padding-right: 6px;
                 }
             }
 
@@ -737,11 +746,10 @@
                 margin-top: -58px;
                 img{
                     color: #f2f2f2;
-                    padding-right: 6px;
                     padding-left: 6px;
                     padding-top: 6px;
                     padding-bottom: 1px;
-                    
+                    padding-right: 6px;
                 }
             }
 
@@ -753,11 +761,10 @@
                 margin-top: -30px;
                 img{
                     color: #f2f2f2;
-                    padding-right: 6px;
                     padding-left: 6px;
                     padding-top: 6px;
+                    padding-right: 6px; 
                     padding-bottom: 1px;
-                    
                 }
             }
 
@@ -769,13 +776,27 @@
                 margin-top: -30px;
                 img{
                     color: #f2f2f2;
-                    padding-right: 6px;
                     padding-left: 6px;
                     padding-top: 6px;
+                    padding-right: 6px;
                     padding-bottom: 1px;
-                    
                 }
             }
         }
-    }           
+
+        .lineText{
+            font-size: 9px;
+            line-height: 20px;
+            text-align: center;
+            letter-spacing: 0.07em;
+            text-transform: uppercase;
+            color: #F2F2F2;
+            padding-top: 13px;
+        }
+      
+    }
+    .lastImg{
+        margin-top: -500px;
+        margin-left: 750px;
+    }   
 }

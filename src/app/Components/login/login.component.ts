@@ -8,6 +8,9 @@ import { FormGroup, FormControl, Validators } from '@angular/forms';
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.scss']
 })
+
+
+
 export class LoginComponent implements OnInit {
 
   constructor() { 
@@ -28,8 +31,24 @@ export class LoginComponent implements OnInit {
     ])
   })
 
+  change = true 
+
   buttonChange (event){
-    console.log("katt")
+    console.log(event)  
+
+    if (event.target.className == "button2") {
+      if (this.change){
+        console.log("if", this.change)
+        event.target.style.marginLeft = "13px";
+        this.change = !this.change
+      }
+      else{
+        console.log("else ", this.change)
+        event.target.style.marginRight = "13px";
+        event.target.style.marginLeft = "0px"
+        this.change = !this.change
+      }
+    }
   }
 
 }
