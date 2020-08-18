@@ -7,12 +7,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './Components/login/login.component';
 import { RegisterComponent } from './Components/register/register.component';
+import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     RegisterComponent,
+    ForgotPasswordComponent,
   ],
   imports: [
     BrowserModule,
@@ -25,6 +27,9 @@ import { RegisterComponent } from './Components/register/register.component';
       },
       {
         path:'register', component: RegisterComponent
+      },
+      {
+        path:'forgotpassword', component: ForgotPasswordComponent
       }
     ])
   ],
