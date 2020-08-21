@@ -38,12 +38,10 @@ export class LoginComponent implements OnInit {
 
     if (event.target.className == "button2") {
       if (this.change){
-        console.log("if", this.change)
         event.target.style.marginLeft = "13px";
         this.change = !this.change
       }
       else{
-        console.log("else ", this.change)
         event.target.style.marginRight = "13px";
         event.target.style.marginLeft = "0px"
         this.change = !this.change
