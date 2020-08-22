@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import {FormsModule, ReactiveFormsModule } from '@angular/forms'
 import { RouterModule } from '@angular/router'
 
@@ -9,6 +9,7 @@ import { LoginComponent } from './Components/login/login.component';
 import { RegisterComponent } from './Components/register/register.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 import { EmailSendComponent } from './email-send/email-send.component';
+import { EmailCheckDoneComponent } from './email-check-done/email-check-done.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { EmailSendComponent } from './email-send/email-send.component';
     RegisterComponent,
     ForgotPasswordComponent,
     EmailSendComponent,
+    EmailCheckDoneComponent,
   ],
   imports: [
     BrowserModule,
@@ -35,6 +37,9 @@ import { EmailSendComponent } from './email-send/email-send.component';
       },
       {
         path: 'emailsend', component: EmailSendComponent
+      },
+      {
+        path: 'emailcheck', component:EmailCheckDoneComponent 
       }
     ])
   ],
