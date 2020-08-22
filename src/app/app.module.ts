@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './Components/login/login.component';
 import { RegisterComponent } from './Components/register/register.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
+import { EmailSendComponent } from './email-send/email-send.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { ForgotPasswordComponent } from './forgot-password/forgot-password.compo
     LoginComponent,
     RegisterComponent,
     ForgotPasswordComponent,
+    EmailSendComponent,
   ],
   imports: [
     BrowserModule,
@@ -30,6 +32,9 @@ import { ForgotPasswordComponent } from './forgot-password/forgot-password.compo
       },
       {
         path:'forgotpassword', component: ForgotPasswordComponent
+      },
+      {
+        path: 'emailsend', component: EmailSendComponent
       }
     ])
   ],
